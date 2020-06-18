@@ -16,7 +16,6 @@ nodeGroups:
       labels:
         nodegroup-type: stateful
         instance-type: onDemandinstance
-      availabilityZones: ["ap-south-1b"]
    - name: scale1SpotInstance
      desiredCapacity: 1
      maxSize: 5
